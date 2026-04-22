@@ -28,32 +28,6 @@
 <img width="1030" height="864" alt="Capture d&#39;écran 2026-04-22 233739" src="https://github.com/user-attachments/assets/74cfe254-a0aa-47e0-a730-92e0fd0e03cc" />
 
 
-
-<!-- 📌 INSÉRER VOTRE IMAGE ICI -->
-<!-- Remplacez le chemin ci-dessous par le chemin réel de votre image -->
-<!-- Exemple : ![Architecture](./images/architecture.png) -->
-
-```
-┌─────────────────────────────────────────┐
-│            Serveur Ubuntu 22.04          │
-│              192.168.1.20               │
-│                                         │
-│           [ Asterisk 20.15.1 ]          │
-│  ┌──────────┐ ┌──────────┐ ┌─────────┐ │
-│  │pjsip.conf│ │extensions│ │voicemail│ │
-│  │SIP Proto │ │Dialplan  │ │+ Email  │ │
-│  │6000-6003 │ │FR/EN/AR  │ │Notif.   │ │
-│  └──────────┘ └──────────┘ └─────────┘ │
-└─────────────────────────────────────────┘
-              │  SIP / UDP 5060  │
-    ┌─────────┴──────┬───────────┘
-    ▼                ▼                ▼
-[Zoiper 6000]  [Zoiper 6001]  [Zoiper 6002]
-  Standard       Scolarité    Comptabilité
-```
-
----
-
 ## 📌 Prérequis
 
 | Élément | Détail |
